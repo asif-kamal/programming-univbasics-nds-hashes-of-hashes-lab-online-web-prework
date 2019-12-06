@@ -38,24 +38,21 @@ def naming_system
      :sub_category => {
        :label => "Class", 
        :sub_category => {
-         :label => "Order"
-    }
-     }
-   }
- }
+         :label => "Order",
+          :sub_category => {
+           :label => "Family",
+            :sub_category => {
+             :label => "Genus",
+              :sub_category => {
+                :label => "Species",
+                 :sub_category => {nil
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
 
-
- 
-{
-   :label => "Family",
-   :sub_category => {
-     :label => "Genus",
-   }
- }
- 
-{
-   :label => "Species",
-   :sub_category => nil
- }
- 
 end
