@@ -57,5 +57,4 @@ def naming_system
    :sub_category => nil
  }
  
- naming_system
 end
